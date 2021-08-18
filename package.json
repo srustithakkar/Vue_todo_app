@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "vue": "^2.0.0-beta.5",
-    "vuex": "^2.0.0-rc.5"
+    "vuex": "^2.0.0-rc.5",
+    "vuex-persistedstate": "2.5.4"
+
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
