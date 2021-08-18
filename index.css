@@ -1,0 +1,31 @@
+* {
+background-color: #a6ca89;
+margin: 10px;
+
+}
+.input-head {
+  display: flex;
+
+
+}
+.input {
+  width: 500px;
+  margin: auto;
+}
+.list {
+  width: 430px;
+  height: 60px;
+}
+todo {
+  width: 100vw;
+}
+.btn-custom {
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 30px;
+}
+li{ 
+  display: flex;
+}
