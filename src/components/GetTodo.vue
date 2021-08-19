@@ -1,19 +1,16 @@
 <template>
-<div fluid>
-  <div class="row">
-  <div id="get-todo" class="mt-5 d-flex input" fluid>
-    <div class="input-head">
-          <input class="form-control col-6 "
-      :value="newTodo"
-      @change="getTodo"
-      placeholder="Please add text">
-    <button class="btn btn-primary  " @click="addTodo">Add Todo</button>
-
+    <div id="get-todo" class=" row"  >
+      <div class="col-6   add ">
+        <input class="form-control text-center justify-content-end  col-4"
+          :value="newTodo"
+          @change="getTodo"
+          placeholder="Please add text"
+        >
+      </div>
+      <div class="col-6 text-start add">
+        <button class="btn btn-primary  col-6S text-center " @click="addTodo">Add Todo</button>
+      </div>
     </div>
-    </div>
-</div>
-</div>
-    
 </template>
 
 <script>

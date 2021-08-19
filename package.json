@@ -8,10 +8,13 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
     "vue": "^2.0.0-beta.5",
+    "vue-axios": "^3.2.5",
+    "vue-router": "^3.5.2",
     "vuex": "^2.0.0-rc.5",
     "vuex-persistedstate": "2.5.4"
-
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

@@ -1,8 +1,8 @@
 <template>
     <div id="current-todos" class="container-fluid input ">
-        <h3 v-if="todos.length > 0">Current({{todos.length}})</h3>
+        <h3 v-if="todos.length > 0"><u>Current({{todos.length}})</u></h3>
         <ul class="list-group list">
-            <li class="list-group-item list  " v-for="(todo, index) in todos"  :key='index'>
+            <li class="list-group-item list shadow " v-for="(todo, index) in todos"  :key='index'>
                 <template>{{todo.body}}</template>
             <div class="btn-group  ">
                 <button type="button" @click="edit(todo)" class="btn btn-default btn-sm btn-custom">
